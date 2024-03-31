@@ -1,16 +1,22 @@
 from singleton import DatabaseConnection
 from abstract_factory.CreateInstitutionInterfaces import PublicInstitutionFactory, PrivateInstitutionFactory
+from adapter.TranslatorAdapter import TranslatorAdapter
 
 
 def main():
+    # Patron Abstract factory
     public_institution_factory = PublicInstitutionFactory()
     private_institution_factory = PrivateInstitutionFactory()
+
+    # Patron Adapter
+    translate_adapter = TranslatorAdapter()
 
     while True:
         print("\n1. Establecer conexión a la base de datos")
         print("2. Crear Institución Pública")
         print("3. Crear Institución Privada")
-        print("4. Salir")
+        print("4. Traducir texto")
+        print("5. Salir")
         option = input("Seleccione una opción: ")
 
         if option == "1":
@@ -32,6 +38,16 @@ def main():
             print(private_institution)
 
         elif option == "4":
+            text = input("Ingresa el texto 'Hola mundo' para traducir: ")
+            if text != "Hola mundo":
+                print("Error: El texto ingresado no es 'Hola mundo'")
+            else:
+                target_language = input(
+                    "Ingrese el idioma objetivo (en para inglés, pt para portugués, fr para francés): ")
+                translation = translate_adapter.translate(text, target_language)
+                print(f"Traducción: {translation}")
+
+        elif option == "5":
             break
         else:
             print("Opción no válida. Por favor, intente de nuevo.")
