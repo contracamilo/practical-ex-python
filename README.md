@@ -1,4 +1,4 @@
-# Proyecto de Patrones de Diseño en Python
+# ACTIVIDAD 4: Taller: Ejercicios prácticos en Phyton
 
 ## Descripción
 Este proyecto es una colección de ejercicios implementados en Python para demostrar el uso de diferentes patrones de diseño de software. Cada patrón se presenta como un subprograma independiente dentro de la estructura del proyecto.
