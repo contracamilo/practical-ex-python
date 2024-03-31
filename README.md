@@ -18,26 +18,14 @@ Este proyecto es una colección de ejercicios implementados en Python para demos
 │   ├── CreateInstitutionInterfaces.py
 │   ├── Institution.py
 │   ├── __init__.py
-│   └── __pycache__
-│       ├── CreateInstitutionInterfaces.cpython-311.pyc
-│       ├── Institution.cpython-311.pyc
-│       └── __init__.cpython-311.pyc
 ├── adapter
 │   ├── TranslationInterface.py
 │   ├── TranslatorAdapter.py
 │   ├── __init__.py
-│   └── __pycache__
-│       ├── TranslationInterface.cpython-311.pyc
-│       ├── TranslatorAdapter.cpython-311.pyc
-│       └── __init__.cpython-311.pyc
 ├── decorator
 │   ├── IceCream.py
 │   ├── IceCreamDecorators.py
 │   ├── __init__.py
-│   └── __pycache__
-│       ├── IceCream.cpython-311.pyc
-│       ├── IceCreamDecorators.cpython-311.pyc
-│       └── __init__.cpython-311.pyc
 ├── main.py
 ├── observer
 │   ├── Observer.py
@@ -45,24 +33,12 @@ Este proyecto es una colección de ejercicios implementados en Python para demos
 │   ├── Product.py
 │   ├── Subject.py
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── Observer.cpython-311.pyc
-│   │   ├── PriceAlert.cpython-311.pyc
-│   │   ├── Product.cpython-311.pyc
-│   │   ├── Subject.cpython-311.pyc
-│   │   ├── __init__.cpython-311.pyc
-│   │   └── helpers.cpython-311.pyc
 │   └── helpers.py
 ├── requirements.txt
 └── singleton
     ├── DatabaseConnection.py
     ├── FakeConnect.py
     ├── __init__.py
-    └── __pycache__
-        ├── DatabaseConnection.cpython-311.pyc
-        ├── FakeConnect.cpython-311.pyc
-        └── __init__.cpython-311.pyc
-
 ```
 
 ## Cómo Utilizar
