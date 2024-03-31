@@ -31,7 +31,7 @@ Este proyecto es una colección de ejercicios implementados en Python para demos
 ```
 
 ## Cómo Utilizar
-Para ejecutar los ejemplos de cada patrón de diseño, navegue al directorio del patrón correspondiente y ejecute el script Python. Por ejemplo, para el patrón Singleton:
+Ejecute el main.py y siga las instrucciones del menu en la consola.
 
 ```bash
 cd singleton
